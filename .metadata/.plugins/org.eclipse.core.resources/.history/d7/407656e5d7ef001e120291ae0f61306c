@@ -1,0 +1,22 @@
+package Quiz;
+
+public class Comparison {
+	
+	public static int comparison(int n1, int n2) {
+		
+		if(n1 > n2) {
+			return n1;
+		} else {
+			return n2;
+		}
+
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(comparison(10, 5));
+		System.out.println(comparison(2, 7));
+		System.out.println(comparison(100, 200));
+	}
+
+}

@@ -1,0 +1,15 @@
+package conditional;
+
+public class EX7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int time = 9;
+		
+		switch (time) {
+		case 8:
+			System.out.println("출근합니다.");
+		}
+	}
+
+}

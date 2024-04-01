@@ -1,0 +1,21 @@
+
+public class EX11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int j = 0, k = 0, l =0;
+		
+		for( j = 1; j <= 5; j++) {
+			for( k = 1; k <= j; k++) {
+				System.out.print('*');
+			}
+			for( l = 5; l >= j; l--) {
+				System.out.println(' ');
+			}
+			
+				System.out.println();
+		}
+		
+	}
+}

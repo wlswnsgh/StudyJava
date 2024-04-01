@@ -1,0 +1,9 @@
+package Quiz;
+
+public class movie {
+	//영화를 정의하는 클래스
+	String movietitle;
+	int movieprice;
+	String director;
+	int ScreeningTime; 
+}

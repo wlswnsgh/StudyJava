@@ -1,0 +1,15 @@
+
+public class EX5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//for 문을 사용하여 안녕하세요 10번 출력하기
+		int i;
+		
+		//초기화, 조건, 증감
+		for(i = 1; i+2 <= 10; i++) {
+			System.out.println(i+". "+ "안녕하세요!");
+		}
+	}
+}
