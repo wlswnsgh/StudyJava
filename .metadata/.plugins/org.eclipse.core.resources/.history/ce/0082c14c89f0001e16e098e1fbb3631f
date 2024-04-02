@@ -1,0 +1,23 @@
+package Quiz;
+
+public class division {
+	
+	public static void division(int n1, int n2) {
+		
+		int result = n1 / n2;
+		if(n2 == 0) {
+			System.out.println(0);
+		} else {
+			System.out.println(result);
+		}
+		
+		
+
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		division(10, 2);
+	}
+
+}

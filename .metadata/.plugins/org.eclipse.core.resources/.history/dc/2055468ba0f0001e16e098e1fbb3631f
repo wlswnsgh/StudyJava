@@ -1,0 +1,15 @@
+package Quiz;
+
+public class BookMenuTest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BookMenu bookmenu1 = new BookMenu();
+		
+//		String tittle;
+//		int Price;
+//		String ApublishingHouse;
+//		int pages;
+	}
+
+}

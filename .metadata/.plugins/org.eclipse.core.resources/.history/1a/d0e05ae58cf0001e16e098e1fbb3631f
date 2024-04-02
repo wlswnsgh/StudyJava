@@ -1,0 +1,13 @@
+package Quiz;
+
+public class Calculator 
+{
+	public static int CalculatorEl(int num1, int num2) {
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

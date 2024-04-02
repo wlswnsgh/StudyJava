@@ -1,0 +1,15 @@
+package Quiz;
+
+public class ThreeDigitSum {
+	
+	public static int ThreeDigitSum(int num) {
+		int n1 = num / 100;
+		int n2 = num % 100 / 100;
+		int n3 = num % 100 / 100;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(ThreeDigitSum(9,3,2));
+	}
+
+}

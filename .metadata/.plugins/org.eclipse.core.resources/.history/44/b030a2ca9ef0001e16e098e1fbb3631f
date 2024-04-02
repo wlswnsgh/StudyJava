@@ -1,0 +1,19 @@
+package Quiz;
+
+import java.util.Date;
+
+import javax.xml.crypto.Data;
+
+public class Oreder {
+	
+	int number;
+	Date DateOfOrder;
+	String name;
+	String address;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
