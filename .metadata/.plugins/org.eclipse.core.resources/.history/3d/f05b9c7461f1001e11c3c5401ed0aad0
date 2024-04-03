@@ -1,0 +1,26 @@
+package reference;
+
+public class Quiz2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+
+class  Department{
+	String dpm;
+	String asr;
+	String alr;
+	
+	public Department() {
+		
+	}
+	
+	public Department(String dpm, String asr, String alr) {
+			dpm = dpm;
+			asr = asr;
+			alr = alr;
+	}
+}	

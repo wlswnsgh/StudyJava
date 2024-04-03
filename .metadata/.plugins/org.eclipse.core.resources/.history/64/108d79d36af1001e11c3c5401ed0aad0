@@ -1,0 +1,23 @@
+package test2;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person person = new Person();
+		person.showInfo();
+	}
+
+}
+
+
+class Person{
+	public String name; // 이름
+	int height; // 키
+	private double weight; // 몸무게
+	
+	public void showInfo() {
+		System.out.println("이름:"+ name +
+				"키:"+ height + "몸무게:" + weight);
+	}
+}

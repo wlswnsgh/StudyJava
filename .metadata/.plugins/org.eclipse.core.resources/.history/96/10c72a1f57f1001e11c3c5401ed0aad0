@@ -1,0 +1,31 @@
+package Quiz;
+
+public class instunt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		book book1 = new book();
+		book1.tittle = ""
+	}
+
+}
+
+class book {
+	String tittle;
+	int Price;
+	String ApublishingHouse;
+	int NumberOfPages;
+	
+	public book() {
+		
+	}
+	
+	public book(String tittle, int price, String apublishingHouse, int numberOfPages) {
+		tittle = tittle;
+		Price = price;
+		ApublishingHouse = apublishingHouse;
+		NumberOfPages = numberOfPages;
+	}
+	
+}

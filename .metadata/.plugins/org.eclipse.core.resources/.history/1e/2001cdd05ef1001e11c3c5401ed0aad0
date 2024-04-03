@@ -1,0 +1,30 @@
+package Quiz;
+
+public class MemberClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+
+class book {
+	int number;
+	String name;
+	String book1;
+	String book2;
+	String book3;
+	
+	public book() {
+		
+	}
+	
+//	public Member(int number, String name, String book1, String book2, String book3) {
+//		number = number;
+//		name = name;
+//		book1 = book1;
+//		book2 = book2;
+//		book3 = book3;
+//	}
+}

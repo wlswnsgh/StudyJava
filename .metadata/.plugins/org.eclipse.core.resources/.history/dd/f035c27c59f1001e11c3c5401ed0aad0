@@ -1,0 +1,33 @@
+package Quiz;
+
+public class CarClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		car car1 = new car();
+		car1.commany = "현대";
+		car1.model = "쏘나타";
+		car1.model = "흰색";
+		car1.maxiumSpeed = 200;
+		
+		car car2 = new car("기아", "레이", "검정색", 150);
+	}
+
+}
+
+class car {
+	String commany;
+	String model;
+	String color;
+	int maxiumSpeed;
+	
+	public car(){
+	}
+	
+	public car(String commany,  String model, String color, int maxiumSpeed) {
+		commany = commany;
+		model = model;
+		color = color;
+		maxiumSpeed = maxiumSpeed;
+	}
+}

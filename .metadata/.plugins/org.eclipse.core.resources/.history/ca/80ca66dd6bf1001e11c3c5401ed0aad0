@@ -1,0 +1,15 @@
+package hiding;
+
+public class EX1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+
+class MyDate {
+	public int month; // 월
+	public int day; // 일
+}
