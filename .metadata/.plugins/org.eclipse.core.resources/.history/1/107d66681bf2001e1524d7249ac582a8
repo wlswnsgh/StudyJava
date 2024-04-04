@@ -1,0 +1,21 @@
+package hiding;
+
+public class EX3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+
+class Person {
+	
+	private String name;
+	private int height;
+	private double weight;
+	
+	// source 메뉴 - generate getter and setter
+	
+	
+}
