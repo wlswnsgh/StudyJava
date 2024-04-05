@@ -6,8 +6,6 @@ public class EX3 {
 		// TODO Auto-generated method stub
 		Person person = new Person();
 		
-		
-		
 	}
 
 }
