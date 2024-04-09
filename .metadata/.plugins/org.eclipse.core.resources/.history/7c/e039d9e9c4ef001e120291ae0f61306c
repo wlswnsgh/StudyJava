@@ -1,8 +1,0 @@
-package Quiz;
-
-public class Board {
-	int Writingnumber;
-	String Title;
-	String content;
-	String Writer;
-}
