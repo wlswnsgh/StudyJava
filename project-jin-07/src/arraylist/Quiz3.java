@@ -19,10 +19,10 @@ public class Quiz3 {
 		
 		System.out.println();
 		
-		for(int i = 0; i < str.size(); i++) {
+		for(int i = 4; i >= 0; i--) {
 			str.remove(i);
-			System.out.print(str+" ");
 		}
+		System.out.println(str);
 		
 	}
 }
