@@ -23,6 +23,5 @@ public class Quiz3 {
 			str.remove(i);
 		}
 		System.out.println(str);
-		
 	}
 }

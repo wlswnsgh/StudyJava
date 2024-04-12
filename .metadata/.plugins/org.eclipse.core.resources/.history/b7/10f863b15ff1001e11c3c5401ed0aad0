@@ -1,8 +1,0 @@
-package reference;
-
-public class Snippet {
-	public static void main(String[] args) {
-		bookEl.book1 = "hi";
-	}
-}
-
