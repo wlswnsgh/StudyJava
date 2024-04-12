@@ -9,6 +9,10 @@ public class Quiz2 {
 		ArrayList<Person> list = new ArrayList<Person>();
 		list.add(new Student("둘리"));
 		list.add(new Office("또치"));
+		
+		for(Person person: list) {
+			person.show1(); // 부모가 물려준 show1
+		}
 
 	}
 
