@@ -42,9 +42,9 @@ class Calculator implements Calc {
 	}
 	
 	public void Inshow() {
-		System.out.println("더하기 결과값: "+add(5, 4));
-		System.out.println("빼기 결과값: "+substract(5, 4));
-		System.out.println("곱하기 결과값: "+times(5, 4));
-		System.out.println("나누기 결과값: "+divide(5, 4));
+		System.out.println("더하기 결과값: "+ add(5, 4));
+		System.out.println("빼기 결과값: "+ substract(5, 4));
+		System.out.println("곱하기 결과값: "+ times(5, 4));
+		System.out.println("나누기 결과값: "+ divide(5, 4));
 	}
 }

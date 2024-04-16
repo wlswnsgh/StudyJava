@@ -35,5 +35,8 @@
     <fullyQualifiedTypeName name="polymorphism.Customer2"/>
     <fullyQualifiedTypeName name="downcasting.Human"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="abstractex.Computer"/>
+    <fullyQualifiedTypeName name="abstractex.Animal"/>
+    <fullyQualifiedTypeName name="abstractex.AutoCar"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
