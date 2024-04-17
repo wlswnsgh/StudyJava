@@ -19,11 +19,8 @@ public class EX2 {
 }
 
 class Person {
-	
 	String name;
-	
 	int height;
-	
 	int weight;
 	
 	public Person() {	

@@ -39,4 +39,11 @@
     <fullyQualifiedTypeName name="abstractex.Animal"/>
     <fullyQualifiedTypeName name="abstractex.AutoCar"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="main.Scheduler"/>
+    <fullyQualifiedTypeName name="main.RoundRobin"/>
+    <fullyQualifiedTypeName name="main.LeastJob"/>
+    <fullyQualifiedTypeName name="main.PriorityAllocation"/>
+    <fullyQualifiedTypeName name="main.DBDriver"/>
+    <fullyQualifiedTypeName name="main.MySqlBDriver"/>
+    <fullyQualifiedTypeName name="object.MyDate"/>
 </qualifiedTypeNameHistroy>

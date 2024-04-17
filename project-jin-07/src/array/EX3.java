@@ -31,6 +31,6 @@ public class EX3 {
 		for(int i = 0; i < intArr.length; i++) {
 			System.out.print(intArr[i]+" ");
 		}
+		
 	}
-
 }

@@ -10,7 +10,7 @@ public class Quiz4 {
 		// System.out.println(Arrays.toString(Arry));
 		int cnt = 0; // 인덱스를 저장할 변수
 		
-		for (int i =1; i <= 10; i++) {
+		for (int i = 1; i <= 10; i++) {
 			if (i % 2 == 0) {
 				Arry[cnt] = i;
 				cnt++;
