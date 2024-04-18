@@ -14,8 +14,8 @@ public class EX2 {
 		person2.height = 160;
 		
 		Person person3 = new Person("도우너", 170, 60);
+		
 	}
-
 }
 
 class Person {

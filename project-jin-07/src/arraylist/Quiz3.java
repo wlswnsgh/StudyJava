@@ -22,6 +22,7 @@ public class Quiz3 {
 		for(int i = 4; i >= 0; i--) {
 			str.remove(i);
 		}
+		
 		System.out.println(str);
 	}
 }

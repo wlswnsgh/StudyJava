@@ -15,8 +15,9 @@ public class EX4 {
 		
 		// 학생 정보 출력
 		student1.showInfo();
+		
 	}
-
+	
 }
 
 // 과목 클래스
@@ -55,4 +56,5 @@ class Student2 {
 		
 		System.out.println(studentName + " 학생의 총점은 "+ total + " 입니다.");
 	}
+	
 }

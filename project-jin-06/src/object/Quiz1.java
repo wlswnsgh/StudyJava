@@ -5,7 +5,7 @@ public class Quiz1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		TEXI ex1 = new TEXI();
-		// ex1.TEXIEL(5000);
+//		 ex1.TEXIEL(5000);
 	}
 
 }

@@ -26,6 +26,7 @@ public class EX3 {
 			Book book = list.get(i);
 			book.showInfo();
 		}
+		
 	}
 }
 
