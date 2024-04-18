@@ -14,7 +14,7 @@ public class Quiz3 {
 //		String nm1 = sanner.nextLine();
 //		String nm2 = sanner.nextLine();
 //		
-//		int sum = Integer.parseInt(nm1) + Integer.parseInt(nm2); // 언박싱
+//		int sum = Integer.parseInt(nm1) + Integer.parseInt(nm2);
 //		System.out.println(sum);
 	}
 
