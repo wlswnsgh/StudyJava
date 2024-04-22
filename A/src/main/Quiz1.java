@@ -5,6 +5,7 @@ public class Quiz1 {
 	public static void main(String[] args) {
 		
 		int sum = Sum(5,10);
+		System.out.println();
 		System.out.println("합계: "+ sum);	
 		
 	}
