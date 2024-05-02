@@ -19,14 +19,11 @@ public class Quiz1 {
 		
 		for(int i = 0; i < list.size(); i++) {
 			Character str = list.get(i);
-			
 			if(str == 'A') {
 				list.remove(i);
 			}
-			
 		}
 		
 		System.out.println(list);
-		
 	}
 }

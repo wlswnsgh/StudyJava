@@ -12,10 +12,17 @@ public class Quiz2 {
 		book.add("C#프로그래밍");
 		System.out.println(book);
 		
-		for(int i= book.size()-1; i >= 0; i--) {
-			String str = book.remove(i);
-		}
+//		첫번째 방법
+//		for(int i= book.size()-1; i >= 0; i--) { book.remove(i); }
+//		System.out.println(book);
 		
-		System.out.println(book);
+//		두번째 방법
+		int j = book.size()-1;
+		
+		while(j >= 0) {
+			book.remove(j);
+			j--;
+		} System.out.println(book);
+		
 	}
 }
