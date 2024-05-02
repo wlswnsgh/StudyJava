@@ -23,7 +23,6 @@ public class Quiz1 {
 				list.remove(i);
 			}
 		}
-		
 		System.out.println(list);
 	}
 }
