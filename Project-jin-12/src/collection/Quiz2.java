@@ -18,7 +18,6 @@ public class Quiz2 {
 		
 //		두번째 방법
 		int j = book.size()-1;
-		
 		while(j >= 0) {
 			book.remove(j);
 			j--;  } System.out.println(book);
