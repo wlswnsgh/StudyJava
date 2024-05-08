@@ -27,15 +27,15 @@ public class Quiz4 {
 		}
 		
 		int sum1 = std1.KOREAN + std1.MATH + std1.ENGLISH;
-		double avg1 = sum1 / 3.0; // 80
+		double avg1 = sum1 / 3.0; // 80.0
 		System.out.println(std1.NAME+"의 합계: "+ sum1 + " " + std1.NAME + "의 평균: " + avg1);
 		
 		int sum2 = std2.KOREAN + std2.MATH + std2.ENGLISH;
-		double avg2 = sum2 / 3.0; // 80
+		double avg2 = sum2 / 3.0; // 65.0
 		System.out.println(std2.NAME+"의 합계: "+ sum2 +  " " + std2.NAME + "의 평균: " + avg2);
 		
 		int sum3 = std3.KOREAN + std3.MATH + std3.ENGLISH;
-		double avg3 = sum3 / 3.0; // 80
+		double avg3 = sum3 / 3.0; // 60.0
 		System.out.println(std3.NAME+"의 합계: "+ sum3 +  " " + std3.NAME + "의 평균: " + avg3);	
 
 	}
