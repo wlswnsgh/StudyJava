@@ -20,7 +20,11 @@ public class Quiz5 {
 		memberHashMap.showAllMember();
 		
 		memberHashMap.removeMember(1001);
+		memberHashMap.removeMember(1002);
 		memberHashMap.showAllMember();
+		
+//		memberHashMap.removeMember(1009);
+//		memberHashMap.showAllMember();
 	}
 
 }
@@ -46,11 +50,10 @@ class MemberHashMap{
 		if(map.containsKey(memberid)) {
 			map.remove(memberid);
 			System.out.println(memberid + "번 회원을 삭제하였습니다.");
-			return;
+		} else { // 없으면 에러메세지 출력
+			System.out.println(memberid + "번 회원이 존재하지 않습니다.");
 		}
 		
-		// 없으면 에러메세지 출력
-		System.out.println(memberid + "번 회원이 존재하지 않습니다.");
 	}
 	
 	// 전체 회원을 출력하는 메소드
