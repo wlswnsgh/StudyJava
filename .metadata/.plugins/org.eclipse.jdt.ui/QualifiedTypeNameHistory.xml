@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="object.TEXI"/>
     <fullyQualifiedTypeName name="object.COFFEE"/>
     <fullyQualifiedTypeName name="arraylist.EX1"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="inheritance.Parents"/>
     <fullyQualifiedTypeName name="inheritance.Student"/>
@@ -54,4 +53,7 @@
     <fullyQualifiedTypeName name="innerclass.ex3.Outer.StaticInner"/>
     <fullyQualifiedTypeName name="innerclass.Eventspace"/>
     <fullyQualifiedTypeName name="java.awt.TextArea"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 </qualifiedTypeNameHistroy>
