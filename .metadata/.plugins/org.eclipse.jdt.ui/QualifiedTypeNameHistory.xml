@@ -50,4 +50,8 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="innerclass.ex3.Outer.InstanseInner"/>
+    <fullyQualifiedTypeName name="innerclass.ex3.Outer.StaticInner"/>
+    <fullyQualifiedTypeName name="innerclass.Eventspace"/>
+    <fullyQualifiedTypeName name="java.awt.TextArea"/>
 </qualifiedTypeNameHistroy>
