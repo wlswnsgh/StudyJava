@@ -18,10 +18,9 @@ public class Quiz2 {
 		TextArea textArea = new TextArea("", 10, 50);
 		frame.add(textArea);
 		
-		
 		frame.setVisible(true);
+//		textArea.addFocusListener(new Focus());
 		
-//		frame.addFocusListener(new Focus());
 		// 미리 구현한 클래스로 키이벤트 등록하기
 		textArea.addFocusListener(new FocusListener() {
 		
