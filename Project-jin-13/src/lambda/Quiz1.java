@@ -4,9 +4,9 @@ public class Quiz1 {
 
 	public static void main(String[] args) {
 		
-		Mynumber num = new Number();
-		System.out.println(num.max(5,4));
-		System.out.println(num.max(10,20));
+		Mynumber num1 = new Number();
+		System.out.println(num1.max(5,4));
+		System.out.println(num1.max(10,20));
 		
 		// 람다식 함수 출력결과
 		Mynumber num2 = (x, y) -> x > y ? x : y;
@@ -18,7 +18,9 @@ public class Quiz1 {
 			public int max(int x, int y) {
 				return (x > y) ? x : y;
 			}
+			
 		};
+		
 		System.out.println(num3.max(3,5));
 		System.out.println(num3.max(15,5));
 		
