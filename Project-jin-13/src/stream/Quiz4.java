@@ -28,7 +28,7 @@ public class Quiz4 {
 		str2.filter(n -> n.나이 >= 20).map(n -> n.이름).forEach(s -> System.out.print(s + " "));
 		
 		// Q3 답: 역순(둘리, 도우너)
-		
+	
 	}
 
 }
