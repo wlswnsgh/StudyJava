@@ -23,15 +23,30 @@ public class Quiz3 {
 		
 		// Q2
 		// 650, 3
+		
+		
+		
 		Stream<Shopping> str1 = list1.stream();
-		long z2 = str1.filter(s -> s.year == 2022).count();
-		System.out.println("주문건수: " + z2);
-				
+		str1
+		.filter(b -> b.orderNo == 1007)
+		.mapToInt(b -> b.price)
+		.forEach(b -> System.out.print(b + " "));
+		
+		Stream<Shopping> str2 = list1.stream();
+		long z1 = str2.filter(s -> s.year == 2022).count();
+		System.out.print(z1);
+		
+		System.out.println();
+		
 		// Q3
 		// 2150, 4
-		Stream<Shopping> str2 = list1.stream();
-		long z4 = str2.filter(s -> s.year == 2023).count();
-		System.out.println("주문건수: " + z4);
+		Stream<Shopping> str3 = list1.stream();
+		int z2 = str3.filter(n -> n.year == 2023).mapToInt(m -> m.price).sum();
+		System.out.print(z2 + " ");
+		
+		Stream<Shopping> str4 = list1.stream();
+		long z4 = str4.filter(s -> s.year == 2023).count();
+		System.out.println(z4);
 
 	}
 

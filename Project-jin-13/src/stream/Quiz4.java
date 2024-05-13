@@ -26,9 +26,9 @@ public class Quiz4 {
 		Stream<Customer> str2 = list.stream();
 		System.out.print("20살 이상 고객 명단: ");
 		str2.filter(n -> n.나이 >= 20).map(n -> n.이름).forEach(s -> System.out.print(s + " "));
-//		str2.filter(n -> n.나이 >= 20)
-//		.sorted()
-//		.forEach(s -> System.out.print(s + " "));
+		
+		// Q3 답: 역순(둘리, 도우너)
+		
 	}
 
 }
