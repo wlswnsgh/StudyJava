@@ -23,9 +23,6 @@ public class Quiz3 {
 		
 		// Q2
 		// 650, 3
-		
-		
-		
 		Stream<Shopping> str1 = list1.stream();
 		str1
 		.filter(b -> b.orderNo == 1007)
