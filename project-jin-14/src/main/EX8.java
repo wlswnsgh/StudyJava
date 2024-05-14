@@ -11,13 +11,11 @@ public class EX8 {
 	}
 	
 	public static void main(String[] args) {
-		
-		try { // 예외처리를 main함수에 해준다는 뜻이다.
+		try { // 예외처리를 main 함수에 해준다는 뜻이다.
 			openTextFile();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		
 	}
 }
 
