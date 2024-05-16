@@ -8,6 +8,8 @@ public class Quiz4 {
 
 	public static void main(String[] args) {
 		
+		
+		// 이 문제는 아스키 코드들을 잘 알아둘 것!!
 		try {
 			FileOutputStream fis = new FileOutputStream("output3.txt");
 				
