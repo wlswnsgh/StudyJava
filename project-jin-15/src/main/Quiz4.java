@@ -10,6 +10,7 @@ public class Quiz4 {
 		
 		
 		// 이 문제는 아스키 코드들을 잘 알아둘 것!!
+		
 		try {
 			FileOutputStream fis = new FileOutputStream("output3.txt");
 				
@@ -45,13 +46,13 @@ public class Quiz4 {
 //					fis.write(i); // A-Z 출력
 //				}
 				
+			
 				// 시작! 'A'의 아스키 값
 				int i = 65;
 				while(i < 90) {
 					fis.write(i);
 					i++;
-				}
-				
+				}	
 				
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
